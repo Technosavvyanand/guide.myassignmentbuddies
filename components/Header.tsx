@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const serviceLinks = [
@@ -74,14 +73,13 @@ export default function Header() {
           className="shrink-0"
           aria-label="My Assignment Buddies"
         >
-          <Image
-            src="/images/mab-logo.jpg"
+          <img
+             src="/images/mab-logo.jpg"
             alt="My Assignment Buddies"
             width={166}
-            height={90}
-            priority
+             height={90}
             className="h-[90px] w-[166px] object-contain"
-          />
+/>
         </Link>
 
         {/* Desktop navigation */}
