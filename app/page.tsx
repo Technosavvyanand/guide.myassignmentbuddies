@@ -3,12 +3,12 @@ import GuideCategoryCard from "../components/GuideCategoryCard";
 
 const guideCategories = [
   {
-    number: "01",
-    title: "DBA Thesis & Dissertation",
-    description:
-      "Guides covering DBA research, thesis structure, methodology, literature reviews, research questions and academic writing.",
-    href: "/dba-thesis-dissertation",
-  },
+  number: "01",
+  title: "DBA Thesis & Dissertation",
+  description:
+    "Guides covering DBA research, thesis structure, methodology, literature reviews, research questions and academic writing.",
+  href: "/dba-thesis-dissertation-help",
+},
   {
     number: "02",
     title: "MBA Thesis & Dissertation",
