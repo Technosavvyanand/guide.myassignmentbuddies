@@ -106,33 +106,6 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Social icons */}
-          <div className="mt-3 flex gap-2">
-            <a
-              href="#"
-              aria-label="WhatsApp"
-              className="flex h-8 w-8 items-center justify-center rounded border border-black bg-white text-sm"
-            >
-              W
-            </a>
-
-            <a
-              href="#"
-              aria-label="Pinterest"
-              className="flex h-8 w-8 items-center justify-center rounded border border-black bg-white text-sm"
-            >
-              P
-            </a>
-
-            <a
-              href="#"
-              aria-label="Social profile"
-              className="flex h-8 w-8 items-center justify-center rounded border border-black bg-white text-sm"
-            >
-              S
-            </a>
-          </div>
-
           <p className="mt-5 text-[14px]">
             Copyright © 2024 Myassignmentbuddies.com. All rights reserved
           </p>
