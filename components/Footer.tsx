@@ -121,8 +121,14 @@ export default function Footer() {
           </p>
 
           <p className="mt-8 text-[13px]">
-            This website and its contents are owned and managed by Ph Test
-            Consultants.
+            This website and its contents are owned and managed by{" "}
+            <a
+              href="https://www.phtestconsultants.in/"
+              className="font-medium hover:underline"
+            >
+              Ph Test Consultants
+            </a>
+            .
           </p>
         </div>
       </div>
