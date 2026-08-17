@@ -3,12 +3,12 @@ import GuideCategoryCard from "../components/GuideCategoryCard";
 
 const guideCategories = [
   {
-  number: "01",
-  title: "DBA Thesis & Dissertation",
-  description:
-    "Guides covering DBA research, thesis structure, methodology, literature reviews, research questions and academic writing.",
-  href: "/dba-thesis-dissertation-help",
-},
+    number: "01",
+    title: "DBA Thesis & Dissertation",
+    description:
+      "Guides covering DBA research, thesis structure, methodology, literature reviews, research questions and academic writing.",
+    href: "/dba-thesis-dissertation-help",
+  },
   {
     number: "02",
     title: "MBA Thesis & Dissertation",
@@ -51,30 +51,30 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="bg-[#fff45a]">
-        <div className="mx-auto max-w-[1250px] px-6 pb-20 pt-20 lg:px-10 lg:pb-24 lg:pt-24">
+        <div className="mx-auto max-w-[1250px] px-6 pb-20 pt-20 sm:pb-20 sm:pt-20 lg:px-10 lg:pb-24 lg:pt-24">
           <div className="max-w-4xl">
             <p className="text-sm font-bold uppercase tracking-[0.22em] text-black/55">
               My Assignment Buddies Guides
             </p>
 
-            <h1 className="mt-5 max-w-4xl text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 max-w-4xl text-3xl font-bold leading-[1.1] tracking-tight text-black sm:text-5xl lg:text-6xl">
               Practical guides for academic, research and technical work.
             </h1>
 
-            <p className="mt-7 max-w-3xl text-lg leading-8 text-black/70 lg:text-xl">
+            <p className="mt-6 max-w-3xl text-base leading-7 text-black/70 sm:text-lg sm:leading-8 lg:text-xl">
               Explore structured resources designed to help students and
               researchers understand complex academic tasks, plan their work
               and produce better research and technical documentation.
             </p>
 
-<div className="mt-9">
-  <a
-    href="#guide-categories"
-    className="inline-block rounded-md bg-[#202020] px-7 py-3.5 text-base font-bold text-white transition-transform hover:scale-[1.02]"
-  >
-    Explore the Guides
-  </a>
-</div>
+            <div className="mt-9">
+              <a
+                href="#guide-categories"
+                className="inline-block rounded-md bg-[#202020] px-7 py-3.5 text-base font-bold text-white transition-transform hover:scale-[1.02]"
+              >
+                Explore the Guides
+              </a>
+            </div>
           </div>
         </div>
       </section>

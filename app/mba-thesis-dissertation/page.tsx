@@ -22,17 +22,17 @@ export default function MBAThesisDissertationPage() {
     <main>
       {/* Hero */}
       <section className="bg-[#fff45a]">
-        <div className="mx-auto max-w-[1250px] px-6 pb-20 pt-20 lg:px-10 lg:pb-24 lg:pt-24">
+        <div className="mx-auto max-w-[1250px] px-6 pb-20 pt-20 sm:pb-20 sm:pt-20 lg:px-10 lg:pb-24 lg:pt-24">
           <div className="max-w-4xl">
             <p className="text-sm font-bold uppercase tracking-[0.22em] text-black/55">
               MBA Thesis & Dissertation Guides
             </p>
 
-            <h1 className="mt-5 text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 max-w-4xl text-3xl font-bold leading-[1.1] tracking-tight text-black sm:text-5xl lg:text-6xl">
               Practical guides for MBA thesis and dissertation research.
             </h1>
 
-            <p className="mt-7 max-w-3xl text-lg leading-8 text-black/70 lg:text-xl">
+            <p className="mt-6 max-w-3xl text-base leading-7 text-black/70 sm:text-lg sm:leading-8 lg:text-xl">
               Understand how to plan, structure and develop an MBA thesis or
               dissertation, from choosing a research topic and formulating
               research questions to reviewing the literature, selecting a
