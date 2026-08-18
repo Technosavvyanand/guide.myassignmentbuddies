@@ -19,7 +19,7 @@ const researchTopics = [
     title: "Research Problems",
     description:
       "Understand how to identify a research gap or problem and develop a clear foundation for an academic study.",
-    href: null,
+    href: "/research-problem-guide",
   },
   {
     title: "Research Questions",
@@ -38,6 +38,24 @@ const researchTopics = [
     description:
       "Explore qualitative, quantitative and mixed-method approaches and understand how researchers select appropriate methods.",
     href: "/research-methodology-guide",
+  },
+  {
+    title: "Research Philosophy",
+    description:
+      "Understand major research philosophies and how assumptions about knowledge and reality influence research design and methodology.",
+    href: "/research-philosophy-guide",
+  },
+  {
+    title: "Research Approach",
+    description:
+      "Explore deductive, inductive and abductive approaches and understand how researchers connect theory, evidence and investigation.",
+    href: "/research-approach-guide",
+  },
+  {
+    title: "Qualitative vs Quantitative Research",
+    description:
+      "Compare qualitative and quantitative research approaches, including their purposes, data types, methods and appropriate applications.",
+    href: "/qualitative-vs-quantitative-research",
   },
   {
     title: "Literature Reviews",
