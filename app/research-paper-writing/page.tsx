@@ -13,7 +13,7 @@ const researchTopics = [
     title: "Research Topics",
     description:
       "Learn how to identify, evaluate and narrow a research topic into a focused and manageable area of investigation.",
-    href: null,
+    href: "/research-topics-guide",
   },
   {
     title: "Research Problems",
@@ -31,31 +31,13 @@ const researchTopics = [
     title: "Research Objectives",
     description:
       "Understand how research aims and objectives translate a research problem into specific and achievable outcomes.",
-    href: null,
+    href: "/research-objectives-guide",
   },
   {
     title: "Research Methodology",
     description:
       "Explore qualitative, quantitative and mixed-method approaches and understand how researchers select appropriate methods.",
     href: "/research-methodology-guide",
-  },
-  {
-    title: "Research Philosophy",
-    description:
-      "Understand major research philosophies and how assumptions about knowledge and reality influence research design and methodology.",
-    href: "/research-philosophy-guide",
-  },
-  {
-    title: "Research Approach",
-    description:
-      "Explore deductive, inductive and abductive approaches and understand how researchers connect theory, evidence and investigation.",
-    href: "/research-approach-guide",
-  },
-  {
-    title: "Qualitative vs Quantitative Research",
-    description:
-      "Compare qualitative and quantitative research approaches, including their purposes, data types, methods and appropriate applications.",
-    href: "/qualitative-vs-quantitative-research",
   },
   {
     title: "Literature Reviews",
