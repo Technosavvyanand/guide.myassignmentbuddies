@@ -43,25 +43,25 @@ const researchTopics = [
     title: "Literature Reviews",
     description:
       "Learn how to find, evaluate, organise and critically synthesise academic literature relevant to a research question.",
-    href: null,
+    href: "/literature-review-guide",
   },
   {
     title: "Data Collection",
     description:
       "Explore common approaches to collecting primary and secondary research data, including surveys, interviews and datasets.",
-    href: null,
+    href: "/data-collection-guide",
   },
   {
     title: "Data Analysis",
     description:
       "Understand how collected evidence can be processed, analysed and interpreted to answer research questions.",
-    href: null,
+    href: "/data-analysis-guide",
   },
   {
     title: "Research Paper Structure",
     description:
       "Learn how research papers are commonly organised, from the introduction and literature review through methodology, findings and conclusion.",
-    href: null,
+    href: "/research-paper-structure-guide",
   },
 ];
 
@@ -161,18 +161,12 @@ export default function ResearchPaperWritingPage() {
                   {item.description}
                 </p>
 
-                {item.href ? (
-                  <Link
-                    href={item.href}
-                    className="mt-6 inline-block text-sm font-bold text-black hover:underline"
-                  >
-                    Read the {item.title} Guide →
-                  </Link>
-                ) : (
-                  <p className="mt-6 text-sm font-bold text-black">
-                    Detailed guide coming soon →
-                  </p>
-                )}
+                <Link
+                  href={item.href}
+                  className="mt-6 inline-block text-sm font-bold text-black hover:underline"
+                >
+                  Read the {item.title} Guide →
+                </Link>
               </div>
             ))}
           </div>
